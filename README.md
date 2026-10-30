@@ -24,4 +24,15 @@ Data cleaning and data preparation using Excel
 
   - ### Formula:
     I selected the blank cells with Go To Special > Blanks, typed No Coupon and pressed Ctrl + Enter. Afterwards, COUNTBLANK returned 0.
+- ## Duplicates
+  - Removed duplicates on all columns found 0 duplicate rows.
+  - Checking OrderID and TrackingNumber on their own also found 0 duplicates.
+  - 11 CustomerIDs appear twice, but each has different orders, dates and products. These are repeat customers, not duplicates, so I kept them.
+  - ### Format Data
+    A dataset were corrected to the right data format.
+    - Dates: all stored as real dates.
+  ### Lesson
+   - A blank cell doesn't always mean something is missing. Sometimes it means "no". Understanding what the column represents decides how you handle it.
+   - Not every repeated ID is a duplicate. Removing the 11 repeat customers would have deleted real orders.
+   - Writing down every decision and the reason for it matters as much as the cleaning itself.
     
