@@ -35,4 +35,6 @@ Data cleaning and data preparation using Excel
    - A blank cell doesn't always mean something is missing. Sometimes it means "no". Understanding what the column represents decides how you handle it.
    - Not every repeated ID is a duplicate. Removing the 11 repeat customers would have deleted real orders.
    - Writing down every decision and the reason for it matters as much as the cleaning itself.
-    
+  ### Visual
+  <img width="1366" height="768" alt="CLEANED DATASET" src="https://github.com/user-attachments/assets/e335e78b-dcbd-4eb1-a115-fb7201e9bf47" />
+  
